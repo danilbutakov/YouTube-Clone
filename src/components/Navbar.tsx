@@ -26,7 +26,6 @@ const Navbar = () => {
 			navigate('/search');
 		} else {
 			dispatch(clearVideos());
-			dispatch(getSearchPageVideos(false));
 		}
 	};
 
